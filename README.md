@@ -16,4 +16,15 @@ Rendering is handled in each loop iteration. If the game is in a paused state (`
 The code concludes by cleaning up SDL resources using `SDL_DestroyRenderer`, `SDL_DestroyWindow`, and `SDL_Quit()` before exiting the program. Overall, this program provides a foundational understanding of game development using SDL by combining graphics, input handling, real-time updates, and basic game mechanics. While the code lacks text rendering (as seen with the empty `DrawMessage` function), it demonstrates the essential features of the Snake game clearly and efficiently. It can be further enhanced with score tracking, sound effects, and a start/restart screen. This SDL-based project is suitable for beginners looking to explore C++ game development concepts such as vectors, rendering, and event handling in a structured yet simple way.
 
 output : 
+
+
+
+
+
+
+
+
+
+
+
 <img width="752" height="540" alt="Image" src="https://github.com/user-attachments/assets/86251cda-2de7-44bc-afad-e5e4a0392431" />
