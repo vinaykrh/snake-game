@@ -14,7 +14,6 @@ The game responds to keyboard input through SDL events. The arrow keys control t
 Rendering is handled in each loop iteration. If the game is in a paused state (`gameClose`), the screen turns white; otherwise, the game background is set to a light blue color. The food is displayed as a green block and the snake is drawn using black blocks via the `DrawSnake` function. The snake’s movement is visually achieved by pushing a new head block into the vector and erasing the tail when necessary, giving the effect of motion. Collision with itself is checked by comparing the head’s position with the rest of the body. The timing of movement is controlled using SDL’s `GetTicks()` function and a `snakeSpeed` delay (100 milliseconds), which keeps the game running at a consistent pace.
 
 The code concludes by cleaning up SDL resources using `SDL_DestroyRenderer`, `SDL_DestroyWindow`, and `SDL_Quit()` before exiting the program. Overall, this program provides a foundational understanding of game development using SDL by combining graphics, input handling, real-time updates, and basic game mechanics. While the code lacks text rendering (as seen with the empty `DrawMessage` function), it demonstrates the essential features of the Snake game clearly and efficiently. It can be further enhanced with score tracking, sound effects, and a start/restart screen. This SDL-based project is suitable for beginners looking to explore C++ game development concepts such as vectors, rendering, and event handling in a structured yet simple way.
-
 output : 
 
 
